@@ -83,13 +83,13 @@ gcc main.c encode.c decode.c -o stego
 ### Encode Data
 
 ```bash
-./stego -e beautiful.bmp secret.txt stego.bmp
+stego.exe -e beautiful.bmp secret.txt stego.bmp
 ```
 
 ### Decode Data
 
 ```bash
-./stego -d stego.bmp decode_secret.txt
+stego.exe -d stego.bmp decode_secret
 ```
 
 ---
